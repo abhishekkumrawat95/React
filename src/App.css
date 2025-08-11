@@ -1,28 +1,96 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f0f0f0;
-}
-
-div {
+.hogwarts-theme {
+  background-color: #1a0d2b;
+  color: #fff;
+  min-height: 100vh;
   padding: 20px;
 }
 
-header {
-  background: #282c34;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-main {
-  background: white;
-  margin: 20px;
+.header {
+  background: linear-gradient(135deg, #4b0082, #8b4513);
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-h2 {
-  color: #333;
+.header h1 {
+  color: #ffd700;
+  text-align: center;
+  font-family: 'Harry Potter', cursive;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.converter-tabs .nav-link {
+  color: #ffd700;
+  background-color: #4b0082;
+  border: none;
+  margin-right: 5px;
+}
+
+.converter-tabs .nav-link.active {
+  background-color: #ffd700;
+  color: #4b0082;
+  font-weight: bold;
+}
+
+.converter-box {
+  background: rgba(255, 215, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ffd700;
+  margin-bottom: 20px;
+}
+
+.form-control, .form-select {
+  background-color: #2a1a3d;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+}
+
+.form-control::placeholder {
+  color: #d3a625;
+}
+
+.btn-primary {
+  background-color: #ffd700;
+  color: #4b0082;
+  border: none;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #d3a625;
+}
+
+.result-text {
+  font-size: 1.2em;
+  color: #ff4500;
+  font-weight: bold;
+}
+
+.sidebar {
+  background: rgba(139, 69, 19, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #8b4513;
+}
+
+.sidebar h4 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  color: #fff;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  color: #ffd700;
 }
